@@ -40,7 +40,7 @@ class View(ft.UserControl):
                       alignment=ft.MainAxisAlignment.CENTER)
         self._page.controls.append(row1)
 
-        self._controller.fillDD()
+        self._controller.fillDDAnno()
 
         # List View where the reply is printed
         self.txt_result = ft.ListView(expand=1, spacing=10, padding=20, auto_scroll=True)
